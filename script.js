@@ -43,6 +43,6 @@ function displayProfile(profileData) {
         <p><strong>Followers:</strong> ${profileData.followers}</p>
         <p><strong>Following:</strong> ${profileData.following}</p>
         <p><strong>Repositories:</strong> ${profileData.public_repos}</p>
-        <a href="${profileData.html_url}" target="_blank">View Profile on GitHub</a>
+        <a href="${profileData.html_url}"target="_blank">View Profile on GitHub</a>
     `;
 }
